@@ -1,0 +1,215 @@
+body{
+    background-color: #0a070d;
+    font-family: 'Dhurjati', sans-serif;
+    color: white;
+}
+
+
+
+
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+.menu_lista{
+    display: flex;
+    gap: 50px;
+}
+
+.menu_logo{
+    width:80px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    /* height: 40px; */
+}
+
+.menu_lista_item{
+    color: #e74b7f;
+    font-family: 'Silkscreen', sans-serif;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+
+.menu_lista_item:hover{
+    color: #8e0e0e;
+}
+.menu_logo:hover{
+    transform: scale(1.1);
+    
+}
+.menu_curriculo{
+    text-decoration: none;
+    background-color: #e74b7f;
+    color: white;
+    font-family: 'Silkscreen', sans-serif;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    
+}
+
+.menu_curriculo:hover{
+    background-color: #8e0e0e;
+    transform: scale(1.1);
+}
+
+.home{
+    background-image:url("https://steamuserimages-a.akamaihd.net/ugc/1661224712069230981/BFD6A13BBBF6F1A2A7FA6A6DA961E0700E98660A/?imw=1024&imh=576&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.home_img{
+    max-width: 300px;
+    background-color: #0a070d77;
+    border-radius: 50%;
+    border: 2px white solid;
+}
+
+.home_infos{
+    background-color: #0a070dc1;
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.home_nome{
+    font-size: 55px;
+    letter-spacing: 2px;
+}
+.home_area{
+    font-size: 35px;
+    letter-spacing: 2px;
+    color:#e74b7f ;
+}
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: 90px auto;
+    gap: 30px;
+    min-height: 80vh;
+    border-top: 10px solid #8e0e0e;
+    border-bottom: 10px solid #8e0e0e;
+}
+
+.sobre_infos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.sobre_titulo{
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 80px;
+    position: relative;
+}
+
+.sobre_texto{
+    line-height: 1.3;
+    font-size: 30px;
+}
+.sobre_img{
+    width: 800px;
+}
+
+.sobre_titulo::before{
+    content: "";
+    background-image: url("https://raw.githubusercontent.com/abelardojr0/portfolio-aula/main/img/detalhes/detalhe_duplo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: -32px;
+    left: -25px;
+    z-index: -1;
+}
+.cursos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: 0px auto;
+    gap: 30px;
+    min-height: 80vh;
+    border-bottom: 10px solid #8e0e0e;
+}
+
+.cursos_titulo{
+    font-size: 200px;
+    font-family: 'Silkscreen', sans-serif;
+    word-wrap: break-word;
+    max-width: 500px;
+    line-height: 1.3;
+}
+
+.cursos_lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.curso{
+    background-color:black;
+    padding: 25px;
+    border-radius: 7px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+}
+
+.curso_titulo{
+    color: #8e0e0e;
+    font-size: 24px;
+    position: relative;
+
+}
+.curso_subtitulo{
+    font-size: 15px;
+    color: #e74b7f;
+}
+
+.curso_texto{
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.curso_duracao{
+    font-size: 14px;
+    color: rgb(55, 55, 231);
+}
+
+.curso_titulo::before{
+    content: "";
+    background-image: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%,rgba(193, 0, 44, 1) 35%,rgba(255, 92, 129, 1) 100%
+      );;
+    width: 10px;
+    height: 20px;
+    border-radius: 6px;
+    position: absolute;
+    left: -25px;
+    top: 5px;
+}
